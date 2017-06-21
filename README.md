@@ -7,4 +7,5 @@ To open:
 2)Open index.html file in browser
 
 
-There is 2 lists here: main list and list of films you selected to watch later. The second one is stored on MainController since this is single page example application and will be cleared every time you will refresh the page. Both lists sorted by popularity.
+There is 2 lists here: main list and list of films you selected to watch later. The second one is stored on MainController since this is single page example application and will be cleared every time you will refresh the page. Both lists sorted by popularity. To change type of list press directed button at the top of page.
+
