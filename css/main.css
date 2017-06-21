@@ -1,0 +1,114 @@
+html,
+body {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ color: #211f1e ;
+ background-color: #eee;
+ background-size: cover;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+ position: relative;
+ top: 100px;
+}
+
+.component{
+  background-color: #DCDCDC;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: 2px solid #A9A9A9;
+  border-radius: 2%;
+}
+
+.success-text{
+  color: #A9A9A9;
+}
+
+.containerdiv {
+  border: 0;
+  float: left;
+  position: relative;
+  width: 300px;
+}
+.cornerimage {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+ }
+
+ img{
+  max-width: 300px;
+}
+
+h1 {
+ font-family: "HelveticaNeue-UltraLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-size: 80px;
+ font-weight: normal;
+ margin: 0;
+ text-align: right;
+}
+
+h2 {
+ border-top: 1px solid #211f1e ;
+ font-size: 24px;
+ font-weight: bold;
+ margin: 10px 0 40px 0;
+ padding: 30px 0 0 0;
+ text-align: right;
+}
+
+.day > div {
+    font-weight: bold;
+ line-height: 48px;
+}
+
+.weekday span {
+ font-size: 18px;
+ font-weight: bold;
+}
+
+.weekday p {
+ display: inline-block;
+ font-size: 18px;
+ font-weight: bold;
+}
+
+.weather img {
+ width: 48px;
+}
+
+.high p,
+.low p,
+.hourly .temp {
+ font-size: 16px;
+}
+
+.hourly {
+ text-align: center;
+ display: none;
+}
+
+.hourly .hour {
+ font-weight: bold;
+ font-size: 16px;
+}
+
+.hourly img {
+ width: 24px;
+}
+
+.hourly p {
+ margin: 16px 0;
+}
+
+.last {
+ margin-bottom: 100px;
+}
