@@ -15,6 +15,7 @@ app.controller('MainController', ['$scope', 'forecast', function($scope, forecas
     $scope.status = 'selected';
   };
   $scope.removeFromSelected = function(item){
+    item.selected_by_user = false;
     var index = $scope.watch_later_list.indexOf(item);
     $scope.watch_later_list.splice( index, 1 );
   };
